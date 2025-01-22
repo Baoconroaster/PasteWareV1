@@ -1,0 +1,272 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Module = Instance.new("Folder")
+local antideath = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local antivoid = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local antiHit = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local HighJump = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local infjump = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local KillAura = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.816083014, 0, 0, 0)
+Frame.Size = UDim2.new(0.182869002, 0, 0.99253726, 0)
+Frame.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00344827585, 0, 0, 0)
+TextLabel.Size = UDim2.new(0.993103445, 0, 0.0497512445, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "PasteWare V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = TextLabel
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0, 0, 0.0497512445, 0)
+TextBox.Size = UDim2.new(1, 0, 0.0348258689, 0)
+TextBox.Font = Enum.Font.Unknown
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Type Here to search"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0068965517, 0, 0.768656731, 0)
+TextLabel_2.Size = UDim2.new(1, 0, 0.223880604, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "We Are Working On It..."
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = TextLabel_2
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 0.361
+
+Module.Name = "Module"
+Module.Parent = Frame
+
+antideath.Name = "antideath"
+antideath.Parent = Module
+antideath.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+antideath.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antideath.BorderSizePixel = 0
+antideath.Position = UDim2.new(0.0103448275, 0, 0.220149234, 0)
+antideath.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+antideath.Font = Enum.Font.Unknown
+antideath.Text = "AntiDeath"
+antideath.TextColor3 = Color3.fromRGB(255, 255, 255)
+antideath.TextSize = 17.000
+antideath.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = antideath
+
+antivoid.Name = "antivoid"
+antivoid.Parent = Module
+antivoid.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+antivoid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antivoid.BorderSizePixel = 0
+antivoid.Position = UDim2.new(0.0103448275, 0, 0.294776112, 0)
+antivoid.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+antivoid.Font = Enum.Font.Unknown
+antivoid.Text = "AntiVoid"
+antivoid.TextColor3 = Color3.fromRGB(255, 255, 255)
+antivoid.TextSize = 17.000
+antivoid.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = antivoid
+
+antiHit.Name = "antiHit"
+antiHit.Parent = Module
+antiHit.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+antiHit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antiHit.BorderSizePixel = 0
+antiHit.Position = UDim2.new(0.0103448275, 0, 0.374378115, 0)
+antiHit.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+antiHit.Font = Enum.Font.Unknown
+antiHit.Text = "AntiHit"
+antiHit.TextColor3 = Color3.fromRGB(255, 255, 255)
+antiHit.TextSize = 17.000
+antiHit.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = antiHit
+
+HighJump.Name = "HighJump "
+HighJump.Parent = Module
+HighJump.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+HighJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HighJump.BorderSizePixel = 0
+HighJump.Position = UDim2.new(0.0103448275, 0, 0.470149249, 0)
+HighJump.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+HighJump.Font = Enum.Font.Unknown
+HighJump.Text = "High jump"
+HighJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighJump.TextSize = 17.000
+HighJump.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = HighJump
+
+infjump.Name = "\\ninf jump"
+infjump.Parent = Module
+infjump.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+infjump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infjump.BorderSizePixel = 0
+infjump.Position = UDim2.new(0.0103448275, 0, 0.569651723, 0)
+infjump.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+infjump.Font = Enum.Font.Unknown
+infjump.Text = "Inf jump"
+infjump.TextColor3 = Color3.fromRGB(255, 255, 255)
+infjump.TextSize = 17.000
+infjump.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = infjump
+
+KillAura.Name = "KillAura"
+KillAura.Parent = Module
+KillAura.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+KillAura.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAura.BorderSizePixel = 0
+KillAura.Position = UDim2.new(0.0103448275, 0, 0.144278601, 0)
+KillAura.Size = UDim2.new(0.975862086, 0, 0.055970151, 0)
+KillAura.Font = Enum.Font.Unknown
+KillAura.Text = "Kill Aura"
+KillAura.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAura.TextSize = 17.000
+KillAura.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = KillAura
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.774817109, 0, 0.942786098, 0)
+TextButton.Size = UDim2.new(0.0370950885, 0, 0.0497512445, 0)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "O/C"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+-- Scripts:
+
+local function MNKVEV_fake_script() -- antideath.LocalScript 
+	local script = Instance.new('LocalScript', antideath)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(MNKVEV_fake_script)()
+local function RFKCHOW_fake_script() -- antivoid.LocalScript 
+	local script = Instance.new('LocalScript', antivoid)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(RFKCHOW_fake_script)()
+local function HDQGKCY_fake_script() -- antiHit.LocalScript 
+	local script = Instance.new('LocalScript', antiHit)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(HDQGKCY_fake_script)()
+local function QOZK_fake_script() -- HighJump.LocalScript 
+	local script = Instance.new('LocalScript', HighJump)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(QOZK_fake_script)()
+local function GZCOE_fake_script() -- infjump.LocalScript 
+	local script = Instance.new('LocalScript', infjump)
+
+	print("Hello World")
+end
+coroutine.wrap(GZCOE_fake_script)()
+local function RTDP_fake_script() -- KillAura.LocalScript 
+	local script = Instance.new('LocalScript', KillAura)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(RTDP_fake_script)()
+local function DZEJ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local Frame = script.Parent
+	Frame.Draggable = true
+	Frame.Active = true
+	Frame.Selectable = true
+end
+coroutine.wrap(DZEJ_fake_script)()
+local function KBAAELC_fake_script() -- TextButton.ToggleFrameVisibility 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent
+	local frame = button.Parent:FindFirstChild("Frame")
+	
+	button.MouseButton1Click:Connect(function()
+	    if frame then
+	        frame.Visible = not frame.Visible
+	    end
+	end)
+	
+	
+end
+coroutine.wrap(KBAAELC_fake_script)()
