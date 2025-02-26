@@ -1623,8 +1623,7 @@ coroutine.wrap(RKUMO_fake_script)()
 local tabs = {}
 
 for i,v in ipairs(MainFrame:GetChildren()) do
-
-  if tab.Name == "World3" or "Render_4" or "Combat_5" or "Credits_6" or "Blatant_6" then
+  if tab:IsA("Frame") then
     print(v.Name)
     table.insert(getgenv().tabs,v)
   end
