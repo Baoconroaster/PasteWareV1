@@ -1,5 +1,5 @@
 local hint = Instance.new("Hint", game:GetService("CoreGui"))
-hint.Text = "ANNOUNCEMENT: You Are Using An Old Version Of PasteWare Yhat Will Not Work"
+hint.Text = "ANNOUNCEMENT: You Are Using An Old Version Of PasteWare That Will Not Work"
 --[[
 -- Gui to Lua
 -- Version: 3.2
