@@ -1620,7 +1620,7 @@ local function RKUMO_fake_script()
 end
 coroutine.wrap(RKUMO_fake_script)()
 -- Dont Mind The Multiple For Loops Blame BaconRoaster (:
-local tabs = {}
+getgenv().tabs = {}
 
 for i,v in ipairs(MainFrame:GetChildren()) do
 
