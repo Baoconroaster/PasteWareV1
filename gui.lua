@@ -1623,22 +1623,41 @@ coroutine.wrap(RKUMO_fake_script)()
 local tabs = {}
 
 for i,v in ipairs(MainFrame:GetChildren()) do
-  if tab:IsA("Frame") then
+
+  if v:IsA("Frame") then
+
     print(v.Name)
+
     table.insert(getgenv().tabs,v)
+
   end
+
 end
+
+
+
 
 
 --[[ me when BaconRoaster decides not to add a createmodule function or uilist layout or using cloneref or using coregui
+
 local getgenv().modulesTable = {}
+
 function createmodule(Name,Callback,Function)
+
   local Module = Name
+
   local callback = not callback or false
+
   table.insert(modulesTable,Module = callback)
+
   local function Module()
+
     Function
+
   end
+
   coroutine.wrap(Module)()
+
 end
+
 ]]--
